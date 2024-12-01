@@ -18,3 +18,4 @@ C:\Users\manos\OneDrive\Desktop\Cambrian\Semester 2\2. Second 7 week block Semes
 C:\Users\manos\OneDrive\Desktop\Cambrian\Semester 2\2. Second 7 week block Semester 2\Modern Software Development CMP 1979\Class Activity\automation\SeleniumEdgeDemo\obj\Debug\net8.0\SeleniumEdgeDemo.pdb
 C:\Users\manos\OneDrive\Desktop\Cambrian\Semester 2\2. Second 7 week block Semester 2\Modern Software Development CMP 1979\Class Activity\automation\SeleniumEdgeDemo\obj\Debug\net8.0\SeleniumEdgeDemo.genruntimeconfig.cache
 C:\Users\manos\OneDrive\Desktop\Cambrian\Semester 2\2. Second 7 week block Semester 2\Modern Software Development CMP 1979\Class Activity\automation\SeleniumEdgeDemo\obj\Debug\net8.0\ref\SeleniumEdgeDemo.dll
+C:\Users\manos\OneDrive\Desktop\Cambrian\Semester 2\2. Second 7 week block Semester 2\Modern Software Development CMP 1979\Class Activity\automation\SeleniumEdgeDemo\obj\Debug\net8.0\SeleniumEdgeDemo.sourcelink.json
