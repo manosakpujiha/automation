@@ -12,20 +12,50 @@ class Scripts
 
         try
         {
+            // driver.Navigate().GoToUrl("https://manos-movieszone.netlify.app/");
+            // System.Threading.Thread.Sleep(2000);
+            // driver.FindElement(By.CssSelector(".loginScreen__getStarted")).Click();
+            // System.Threading.Thread.Sleep(2000);
+            // driver.FindElement(By.CssSelector("input[placeholder='Email']")).SendKeys("manos@gmail.com");
+            // System.Threading.Thread.Sleep(2000);
+            // driver.FindElement(By.CssSelector("input[placeholder='Password']")).SendKeys("testing123");
+            // System.Threading.Thread.Sleep(2000);
+            // driver.FindElement(By.CssSelector("button")).Click();
+            // System.Threading.Thread.Sleep(2000);
+            // IWebElement usernameElement = driver.FindElement(By.ClassName("nav__username"));
+            // string username = usernameElement.Text;
+            // Console.WriteLine(username + " is logged in!");
+            //  System.Threading.Thread.Sleep(2000);
+
             driver.Navigate().GoToUrl("https://manos-movieszone.netlify.app/");
             System.Threading.Thread.Sleep(2000);
             driver.FindElement(By.CssSelector(".loginScreen__getStarted")).Click();
             System.Threading.Thread.Sleep(2000);
-            driver.FindElement(By.CssSelector("input[placeholder='Email']")).SendKeys("manos@gmail.com");
+             driver.FindElement(By.ClassName("signupScreen__link")).Click();
             System.Threading.Thread.Sleep(2000);
-            driver.FindElement(By.CssSelector("input[placeholder='Password']")).SendKeys("testing123");
+            driver.FindElement(By.XPath("//input[@placeholder='Name']")).SendKeys("Manpreet Kaur");
             System.Threading.Thread.Sleep(2000);
-            driver.FindElement(By.CssSelector("button")).Click();
+            driver.FindElement(By.XPath("//input[@placeholder='Email']")).SendKeys("A00307693@mycambrian.ca");
             System.Threading.Thread.Sleep(2000);
-            IWebElement usernameElement = driver.FindElement(By.ClassName("nav__username"));
-            string username = usernameElement.Text;
-            Console.WriteLine(username + " is logged in!");
-             System.Threading.Thread.Sleep(2000);
+            driver.FindElement(By.XPath("//input[@placeholder='Password']")).SendKeys("Rabab101");
+            System.Threading.Thread.Sleep(2000);
+            driver.FindElement(By.XPath("//button[text()='Create Account']")).Click();
+            System.Threading.Thread.Sleep(2000);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         }
         catch (Exception ex)
         {
@@ -34,7 +64,7 @@ class Scripts
         finally
         {
             // Close the browser
-            driver.Quit();
+            // driver.Quit();
             Console.WriteLine("Browser closed.");
         }
     }

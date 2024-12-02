@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SeleniumEdgeDemo")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+268dc983179a4d09b73f36735c315a81c4d44465")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+61466a5082bb0538da80e4d7f214896cb0313645")]
 [assembly: System.Reflection.AssemblyProductAttribute("SeleniumEdgeDemo")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SeleniumEdgeDemo")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
