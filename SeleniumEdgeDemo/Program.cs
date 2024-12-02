@@ -46,27 +46,52 @@ class Scripts
             // System.Threading.Thread.Sleep(2000);
 
             //Ujjwall -Play Trailers
+            // driver.Navigate().GoToUrl("https://manos-movieszone.netlify.app/");
+            // System.Threading.Thread.Sleep(2000);
+            // driver.FindElement(By.CssSelector(".loginScreen__getStarted")).Click();
+            // System.Threading.Thread.Sleep(2000);
+            
+            // driver.FindElement(By.CssSelector("input[placeholder='Email']")).SendKeys("ujjiptl@gmail.com");
+            // System.Threading.Thread.Sleep(2000);
+            // driver.FindElement(By.CssSelector("input[placeholder='Password']")).SendKeys("ujji1234");;
+            //  System.Threading.Thread.Sleep(2000);
+            // driver.FindElement(By.CssSelector("button")).Click();
+            // System.Threading.Thread.Sleep(2000);
+            
+            // int screenWidth = driver.Manage().Window.Size.Width;
+            // int screenHeight = driver.Manage().Window.Size.Height;
+            // int centerX = screenWidth / 2;
+            // int centerY = screenHeight / 2;
+            // Actions actions = new Actions(driver);
+            // actions.MoveByOffset(centerX, centerY).Perform();
+            // System.Threading.Thread.Sleep(2000);
+            // driver.FindElement(By.ClassName("hidden-button")).Click();
+            // System.Threading.Thread.Sleep(5000);
+
+
+        // Saurav - Movie Description
             driver.Navigate().GoToUrl("https://manos-movieszone.netlify.app/");
             System.Threading.Thread.Sleep(2000);
             driver.FindElement(By.CssSelector(".loginScreen__getStarted")).Click();
             System.Threading.Thread.Sleep(2000);
-            
-            driver.FindElement(By.CssSelector("input[placeholder='Email']")).SendKeys("ujjiptl@gmail.com");
+            driver.FindElement(By.CssSelector("input[placeholder='Email']")).SendKeys("saurav@gmail.com");
             System.Threading.Thread.Sleep(2000);
-            driver.FindElement(By.CssSelector("input[placeholder='Password']")).SendKeys("ujji1234");;
-             System.Threading.Thread.Sleep(2000);
+            driver.FindElement(By.CssSelector("input[placeholder='Password']")).SendKeys("saurav");
+            System.Threading.Thread.Sleep(2000);
             driver.FindElement(By.CssSelector("button")).Click();
             System.Threading.Thread.Sleep(2000);
-            
-            int screenWidth = driver.Manage().Window.Size.Width;
-            int screenHeight = driver.Manage().Window.Size.Height;
-            int centerX = screenWidth / 2;
-            int centerY = screenHeight / 2;
-            Actions actions = new Actions(driver);
-            actions.MoveByOffset(centerX, centerY).Perform();
+
+            // Locate the element using its class name
+            IWebElement descriptionElement = driver.FindElement(By.ClassName("banner__description"));
             System.Threading.Thread.Sleep(2000);
-            driver.FindElement(By.ClassName("hidden-button")).Click();
-            System.Threading.Thread.Sleep(5000);
+
+            // Get the text of the element
+            string descriptionText = descriptionElement.Text;
+            System.Threading.Thread.Sleep(2000);
+
+            // Print the text to the console
+            Console.WriteLine(descriptionText);
+            System.Threading.Thread.Sleep(2000);
                 
 
 
