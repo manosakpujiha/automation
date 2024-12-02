@@ -1,5 +1,6 @@
 ﻿using OpenQA.Selenium;
 using OpenQA.Selenium.Edge;
+using OpenQA.Selenium.Interactions;
 using System;
 using System.Threading;
 
@@ -12,6 +13,7 @@ class Scripts
 
         try
         {
+            // Manos - Login
             // driver.Navigate().GoToUrl("https://manos-movieszone.netlify.app/");
             // System.Threading.Thread.Sleep(2000);
             // driver.FindElement(By.CssSelector(".loginScreen__getStarted")).Click();
@@ -27,20 +29,48 @@ class Scripts
             // Console.WriteLine(username + " is logged in!");
             //  System.Threading.Thread.Sleep(2000);
 
+            //Manpreet - Register
+            // driver.Navigate().GoToUrl("https://manos-movieszone.netlify.app/");
+            // System.Threading.Thread.Sleep(2000);
+            // driver.FindElement(By.CssSelector(".loginScreen__getStarted")).Click();
+            // System.Threading.Thread.Sleep(2000);
+            //  driver.FindElement(By.ClassName("signupScreen__link")).Click();
+            // System.Threading.Thread.Sleep(2000);
+            // driver.FindElement(By.XPath("//input[@placeholder='Name']")).SendKeys("Manpreet Kaur");
+            // System.Threading.Thread.Sleep(2000);
+            // driver.FindElement(By.XPath("//input[@placeholder='Email']")).SendKeys("A00307693@mycambrian.ca");
+            // System.Threading.Thread.Sleep(2000);
+            // driver.FindElement(By.XPath("//input[@placeholder='Password']")).SendKeys("Rabab101");
+            // System.Threading.Thread.Sleep(2000);
+            // driver.FindElement(By.XPath("//button[text()='Create Account']")).Click();
+            // System.Threading.Thread.Sleep(2000);
+
+            //Ujjwall -Play Trailers
             driver.Navigate().GoToUrl("https://manos-movieszone.netlify.app/");
             System.Threading.Thread.Sleep(2000);
             driver.FindElement(By.CssSelector(".loginScreen__getStarted")).Click();
             System.Threading.Thread.Sleep(2000);
-             driver.FindElement(By.ClassName("signupScreen__link")).Click();
+            
+            driver.FindElement(By.CssSelector("input[placeholder='Email']")).SendKeys("ujjiptl@gmail.com");
             System.Threading.Thread.Sleep(2000);
-            driver.FindElement(By.XPath("//input[@placeholder='Name']")).SendKeys("Manpreet Kaur");
+            driver.FindElement(By.CssSelector("input[placeholder='Password']")).SendKeys("ujji1234");;
+             System.Threading.Thread.Sleep(2000);
+            driver.FindElement(By.CssSelector("button")).Click();
             System.Threading.Thread.Sleep(2000);
-            driver.FindElement(By.XPath("//input[@placeholder='Email']")).SendKeys("A00307693@mycambrian.ca");
+            
+            int screenWidth = driver.Manage().Window.Size.Width;
+            int screenHeight = driver.Manage().Window.Size.Height;
+            int centerX = screenWidth / 2;
+            int centerY = screenHeight / 2;
+            Actions actions = new Actions(driver);
+            actions.MoveByOffset(centerX, centerY).Perform();
             System.Threading.Thread.Sleep(2000);
-            driver.FindElement(By.XPath("//input[@placeholder='Password']")).SendKeys("Rabab101");
-            System.Threading.Thread.Sleep(2000);
-            driver.FindElement(By.XPath("//button[text()='Create Account']")).Click();
-            System.Threading.Thread.Sleep(2000);
+            driver.FindElement(By.ClassName("hidden-button")).Click();
+            System.Threading.Thread.Sleep(5000);
+                
+
+
+
 
 
 

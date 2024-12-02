@@ -40,3 +40,24 @@ C:\Users\HP\Desktop\Activity 4\automation-1\SeleniumEdgeDemo\obj\Debug\net8.0\re
 C:\Users\HP\Desktop\Activity 4\automation-1\SeleniumEdgeDemo\obj\Debug\net8.0\SeleniumEdgeDemo.pdb
 C:\Users\HP\Desktop\Activity 4\automation-1\SeleniumEdgeDemo\obj\Debug\net8.0\SeleniumEdgeDemo.genruntimeconfig.cache
 C:\Users\HP\Desktop\Activity 4\automation-1\SeleniumEdgeDemo\obj\Debug\net8.0\ref\SeleniumEdgeDemo.dll
+C:\Users\ujjip\OneDrive\Desktop\Modular Software Development\automation\SeleniumEdgeDemo\bin\Debug\net8.0\selenium-manager\linux\selenium-manager
+C:\Users\ujjip\OneDrive\Desktop\Modular Software Development\automation\SeleniumEdgeDemo\bin\Debug\net8.0\selenium-manager\macos\selenium-manager
+C:\Users\ujjip\OneDrive\Desktop\Modular Software Development\automation\SeleniumEdgeDemo\bin\Debug\net8.0\selenium-manager\windows\selenium-manager.exe
+C:\Users\ujjip\OneDrive\Desktop\Modular Software Development\automation\SeleniumEdgeDemo\bin\Debug\net8.0\SeleniumEdgeDemo.exe
+C:\Users\ujjip\OneDrive\Desktop\Modular Software Development\automation\SeleniumEdgeDemo\bin\Debug\net8.0\SeleniumEdgeDemo.deps.json
+C:\Users\ujjip\OneDrive\Desktop\Modular Software Development\automation\SeleniumEdgeDemo\bin\Debug\net8.0\SeleniumEdgeDemo.runtimeconfig.json
+C:\Users\ujjip\OneDrive\Desktop\Modular Software Development\automation\SeleniumEdgeDemo\bin\Debug\net8.0\SeleniumEdgeDemo.dll
+C:\Users\ujjip\OneDrive\Desktop\Modular Software Development\automation\SeleniumEdgeDemo\bin\Debug\net8.0\SeleniumEdgeDemo.pdb
+C:\Users\ujjip\OneDrive\Desktop\Modular Software Development\automation\SeleniumEdgeDemo\bin\Debug\net8.0\WebDriver.dll
+C:\Users\ujjip\OneDrive\Desktop\Modular Software Development\automation\SeleniumEdgeDemo\obj\Debug\net8.0\SeleniumEdgeDemo.csproj.AssemblyReference.cache
+C:\Users\ujjip\OneDrive\Desktop\Modular Software Development\automation\SeleniumEdgeDemo\obj\Debug\net8.0\SeleniumEdgeDemo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ujjip\OneDrive\Desktop\Modular Software Development\automation\SeleniumEdgeDemo\obj\Debug\net8.0\SeleniumEdgeDemo.AssemblyInfoInputs.cache
+C:\Users\ujjip\OneDrive\Desktop\Modular Software Development\automation\SeleniumEdgeDemo\obj\Debug\net8.0\SeleniumEdgeDemo.AssemblyInfo.cs
+C:\Users\ujjip\OneDrive\Desktop\Modular Software Development\automation\SeleniumEdgeDemo\obj\Debug\net8.0\SeleniumEdgeDemo.csproj.CoreCompileInputs.cache
+C:\Users\ujjip\OneDrive\Desktop\Modular Software Development\automation\SeleniumEdgeDemo\obj\Debug\net8.0\SeleniumEdgeDemo.sourcelink.json
+C:\Users\ujjip\OneDrive\Desktop\Modular Software Development\automation\SeleniumEdgeDemo\obj\Debug\net8.0\Selenium.67E188D4.Up2Date
+C:\Users\ujjip\OneDrive\Desktop\Modular Software Development\automation\SeleniumEdgeDemo\obj\Debug\net8.0\SeleniumEdgeDemo.dll
+C:\Users\ujjip\OneDrive\Desktop\Modular Software Development\automation\SeleniumEdgeDemo\obj\Debug\net8.0\refint\SeleniumEdgeDemo.dll
+C:\Users\ujjip\OneDrive\Desktop\Modular Software Development\automation\SeleniumEdgeDemo\obj\Debug\net8.0\SeleniumEdgeDemo.pdb
+C:\Users\ujjip\OneDrive\Desktop\Modular Software Development\automation\SeleniumEdgeDemo\obj\Debug\net8.0\SeleniumEdgeDemo.genruntimeconfig.cache
+C:\Users\ujjip\OneDrive\Desktop\Modular Software Development\automation\SeleniumEdgeDemo\obj\Debug\net8.0\ref\SeleniumEdgeDemo.dll

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\HP\\Desktop\\Activity 4\\automation-1\\SeleniumEdgeDemo\\SeleniumEdgeDemo.csproj": {}
+    "C:\\Users\\ujjip\\OneDrive\\Desktop\\Modular Software Development\\automation\\SeleniumEdgeDemo\\SeleniumEdgeDemo.csproj": {}
   },
   "projects": {
-    "C:\\Users\\HP\\Desktop\\Activity 4\\automation-1\\SeleniumEdgeDemo\\SeleniumEdgeDemo.csproj": {
+    "C:\\Users\\ujjip\\OneDrive\\Desktop\\Modular Software Development\\automation\\SeleniumEdgeDemo\\SeleniumEdgeDemo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HP\\Desktop\\Activity 4\\automation-1\\SeleniumEdgeDemo\\SeleniumEdgeDemo.csproj",
+        "projectUniqueName": "C:\\Users\\ujjip\\OneDrive\\Desktop\\Modular Software Development\\automation\\SeleniumEdgeDemo\\SeleniumEdgeDemo.csproj",
         "projectName": "SeleniumEdgeDemo",
-        "projectPath": "C:\\Users\\HP\\Desktop\\Activity 4\\automation-1\\SeleniumEdgeDemo\\SeleniumEdgeDemo.csproj",
-        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HP\\Desktop\\Activity 4\\automation-1\\SeleniumEdgeDemo\\obj\\",
+        "projectPath": "C:\\Users\\ujjip\\OneDrive\\Desktop\\Modular Software Development\\automation\\SeleniumEdgeDemo\\SeleniumEdgeDemo.csproj",
+        "packagesPath": "C:\\Users\\ujjip\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ujjip\\OneDrive\\Desktop\\Modular Software Development\\automation\\SeleniumEdgeDemo\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\ujjip\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -64,7 +64,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
