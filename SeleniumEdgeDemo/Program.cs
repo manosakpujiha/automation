@@ -1,5 +1,8 @@
 ﻿using OpenQA.Selenium;
 using OpenQA.Selenium.Edge;
+
+using OpenQA.Selenium.Support.UI;
+using System;
 using OpenQA.Selenium.Interactions;
 using System;
 using System.Threading;
@@ -70,42 +73,43 @@ class Scripts
 
 
         // Saurav - Movie Description
+            // driver.Navigate().GoToUrl("https://manos-movieszone.netlify.app/");
+            // System.Threading.Thread.Sleep(2000);
+            // driver.FindElement(By.CssSelector(".loginScreen__getStarted")).Click();
+            // System.Threading.Thread.Sleep(2000);
+            // driver.FindElement(By.CssSelector("input[placeholder='Email']")).SendKeys("saurav@gmail.com");
+            // System.Threading.Thread.Sleep(2000);
+            // driver.FindElement(By.CssSelector("input[placeholder='Password']")).SendKeys("saurav");
+            // System.Threading.Thread.Sleep(2000);
+            // driver.FindElement(By.CssSelector("button")).Click();
+            // System.Threading.Thread.Sleep(2000);
+
+            // // Locate the element using its class name
+            // IWebElement descriptionElement = driver.FindElement(By.ClassName("banner__description"));
+            // System.Threading.Thread.Sleep(2000);
+
+            // // Get the text of the element
+            // string descriptionText = descriptionElement.Text;
+            // System.Threading.Thread.Sleep(2000);
+
+            // // Print the text to the console
+            // Console.WriteLine(descriptionText);
+            // System.Threading.Thread.Sleep(2000);
+
+
+            //Gurkirat Singh - Verify access to the profile page after login
             driver.Navigate().GoToUrl("https://manos-movieszone.netlify.app/");
             System.Threading.Thread.Sleep(2000);
             driver.FindElement(By.CssSelector(".loginScreen__getStarted")).Click();
             System.Threading.Thread.Sleep(2000);
-            driver.FindElement(By.CssSelector("input[placeholder='Email']")).SendKeys("saurav@gmail.com");
+            driver.FindElement(By.CssSelector("input[placeholder='Email']")).SendKeys("guri.s46@gmail.com");
             System.Threading.Thread.Sleep(2000);
-            driver.FindElement(By.CssSelector("input[placeholder='Password']")).SendKeys("saurav");
+            driver.FindElement(By.CssSelector("input[placeholder='Password']")).SendKeys("Welcome@123");
             System.Threading.Thread.Sleep(2000);
             driver.FindElement(By.CssSelector("button")).Click();
             System.Threading.Thread.Sleep(2000);
-
-            // Locate the element using its class name
-            IWebElement descriptionElement = driver.FindElement(By.ClassName("banner__description"));
+            driver.FindElement(By.CssSelector(".nav__avatar")).Click();
             System.Threading.Thread.Sleep(2000);
-
-            // Get the text of the element
-            string descriptionText = descriptionElement.Text;
-            System.Threading.Thread.Sleep(2000);
-
-            // Print the text to the console
-            Console.WriteLine(descriptionText);
-            System.Threading.Thread.Sleep(2000);
-                
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -119,7 +123,7 @@ class Scripts
         finally
         {
             // Close the browser
-            // driver.Quit();
+            driver.Quit();
             Console.WriteLine("Browser closed.");
         }
     }

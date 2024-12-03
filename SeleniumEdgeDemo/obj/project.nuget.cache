@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "5jXXkP+26FY=",
+  "dgSpecHash": "XQkhGVHZcQ8=",
   "success": true,
-  "projectFilePath": "C:\\Users\\ujjip\\OneDrive\\Desktop\\Modular Software Development\\automation\\SeleniumEdgeDemo\\SeleniumEdgeDemo.csproj",
+  "projectFilePath": "C:\\Users\\gurkirat\\Desktop\\assignments\\Applied activity 4 Nathan\\automation\\SeleniumEdgeDemo\\SeleniumEdgeDemo.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\ujjip\\.nuget\\packages\\selenium.webdriver\\4.27.0\\selenium.webdriver.4.27.0.nupkg.sha512"
+    "C:\\Users\\gurkirat\\.nuget\\packages\\selenium.webdriver\\4.27.0\\selenium.webdriver.4.27.0.nupkg.sha512"
   ],
   "logs": []
 }
